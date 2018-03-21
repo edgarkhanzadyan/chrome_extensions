@@ -1,0 +1,16 @@
+{
+    "name": "SiteBlocker",
+    "version": "1.0",
+    "description": "blocks stupid websites",
+    "background": {
+      "scripts": ["blocker.js"],
+      "persistent": true
+    },
+    "permissions": [
+        "webRequest",
+        "*://*.google.com/",
+        "*://*.youtube.com/",
+        "webRequestBlocking"
+    ],
+    "manifest_version": 2
+}
